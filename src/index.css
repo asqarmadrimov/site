@@ -30,6 +30,13 @@ code {
   display: none;
 }
 
+@media only screen and (max-width: 950px) {
+  .lecture-img {
+    max-width: 600px;
+    max-height: 550px;
+  }
+}
+
 @media only screen and (max-width: 750px) {
   .nav {
     display: none !important;
@@ -37,6 +44,11 @@ code {
 
   .gamBtn {
     display: block;
+  }
+
+  .lecture-img {
+    max-width: 400px;
+    max-height: 300px;
   }
 }
 
@@ -50,5 +62,10 @@ code {
   .gamBtn__btn {
     max-width: 50px;
     max-height: 50px;
+  }
+
+  .lecture-img {
+    max-width: 300px;
+    max-height: 270px;
   }
 }

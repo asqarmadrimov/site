@@ -9,7 +9,6 @@ function Main() {
   return (
     <main className='main'>
       <Routes>
-        <Route path='/' element={<Post1 />} />
         <Route path='/lecture' element={<Lecture1 />}/>
         <Route path='/rolik' element={<Rolik1 />}/>
         <Route path='/material' element={<Material1 />}/>

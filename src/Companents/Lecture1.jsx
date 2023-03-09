@@ -7,7 +7,7 @@ function Lecture1() {
   return (
     <section className='lecture1 text-center'>
       <div className="container">
-        <img className='' src={img} alt="" height={'500'} width={"700"} />
+        <img className='lecture-img my-3' src={img} alt="" height={'500'} width={"700"} />
 
         <h2 className='fs-1 mt-5 text-danger'>
           <em>

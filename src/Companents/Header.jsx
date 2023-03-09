@@ -8,7 +8,7 @@ function Header() {
     <header className='header p-2'>
       <div className="container-xxl">
         <div className="header__inner d-flex align-items-center ">
-          <a className='header__logo' href="/public/index.html">
+          <a className='header__logo me-2' href="/public/index.html">
             <img className='header__logo-img' src={logo} alt="siteLogo" width={'80'} height={'70px'}/>
           </a>
 
