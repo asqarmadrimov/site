@@ -1,0 +1,28 @@
+import React from 'react';
+import logo from '../Utils/image/siteLogo.jpg';
+import GamburgerBtn from './GamburgerBtn';
+import Navbar from './Navbar';
+
+function Header() {
+  return (
+    <header className='header p-2'>
+      <div className="container-xxl">
+        <div className="header__inner d-flex align-items-center ">
+          <a className='header__logo' href="/public/index.html">
+            <img className='header__logo-img' src={logo} alt="siteLogo" width={'80'} height={'70px'}/>
+          </a>
+
+          <h1 className='header__title fs-1 mx-auto font-monospace'>
+            Healthy Generation
+          </h1>
+
+          <GamburgerBtn />
+        </div>
+
+        <Navbar />
+      </div>
+    </header>
+  )
+}
+
+export default Header
