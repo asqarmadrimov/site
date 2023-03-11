@@ -6,7 +6,7 @@ import card3 from '../Utils/image/card3.webp'
 
 const Post2 = () => {
   return (
-    <section className='hero'>
+    <div className='hero'>
       <hr className='w-75 mx-auto text-success d-block' style={{ height: '5px' }} />
       <div className="container-xxl">
         <div className='hero__list text-success d-flex justify-content-around flex-wrap'>
@@ -71,7 +71,7 @@ const Post2 = () => {
         </div>
       </div>
 
-    </section>
+    </div>
   )
 }
 

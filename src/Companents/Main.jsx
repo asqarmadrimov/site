@@ -13,12 +13,15 @@ function Main() {
     <main className='main'>
       <SiteBar />
       <Routes>
+        <Route path='/' element={<Post1 />}/>
+        <Route path='/' element={<Post2 />}/>
+        <Route path='/' element={<VideosRolik />}/>
         <Route path='/lecture' element={<Lecture1 />}/>
         <Route path='/rolik' element={<Rolik1 />}/>
         <Route path='/material' element={<Material1 />}/>
       </Routes>
-      <Post1 />
-      <Post2 />
+      {/* <Post1 /> */}
+      {/* <Post2 /> */}
       {/* <VideosRolik /> */}
     </main>
   )

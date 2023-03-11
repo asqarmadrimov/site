@@ -87,6 +87,22 @@ body {
   box-shadow: 6px 7px 5px rgb(151, 170, 151);
 }
 
+.videoRolik-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.videoRolik-title {
+  color: green;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.videoRolik {
+  width: 640px;
+  height: 340px;
+}
+
 .footer {
   background-color: rgb(182, 228, 206);
 }
@@ -113,11 +129,25 @@ body {
   }
 
   .carusel-item-1, .carusel-item-2 {
-    padding: 80px 160px 160px 80px;
+    padding: 100px 250px 250px 20px;
+  }
+
+  .videoRolik-inner {
+    display: block;
+    text-align: center;
+  }
+
+  .videoRolik {
+    width: 540px;
+    height: 340px;
   }
 }
 
 @media only screen and (max-width: 550px) {
+  .header__title {
+    font-size: 22px !important;
+  }
+
   .header__logo-img {
     max-width: 50px;
     max-height: 50px;
@@ -135,15 +165,38 @@ body {
   }
 
   .carusel-item-1, .carusel-item-2 {
-    padding: 40px 80px 80px 40px;
+    padding: 50px 120px 120px 8px;
   }
 
   .text-title1, .text-title2 {
-    font-size: 20px !important;
+    font-size: 18px !important;
   }
 
-  .text-masseg1, .text-masseg2 {
-    font-size: 10px !important;
+  .text-masseg2, .text-masseg1 {
+    font-size: 12px !important;
   }
-  
+
+  .card-title {
+    font-size: 18px !important;
+  }
+
+  .card-text {
+    font-size: 12px !important;
+  }
+
+  .videoRolik-title {
+    font-size: 18px !important;
+  }
+
+  .videoRolik {
+    width: 380px;
+    height: 280px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .videoRolik {
+    width: 300px;
+    height: 250px;
+  }
 }
