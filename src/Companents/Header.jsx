@@ -1,11 +1,10 @@
 import React from 'react';
 import logo from '../Utils/image/siteLogo.jpg';
 import GamburgerBtn from './GamburgerBtn';
-import Navbar from './Navbar';
 
 function Header() {
   return (
-    <header className='header p-2'>
+    <header className='header p-1'>
       <div className="container-xxl">
         <div className="header__inner d-flex align-items-center ">
           <a className='header__logo me-2' href="/public/index.html">
@@ -18,8 +17,6 @@ function Header() {
 
           <GamburgerBtn />
         </div>
-
-        <Navbar />
       </div>
     </header>
   )
