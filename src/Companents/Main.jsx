@@ -6,6 +6,7 @@ import Rolik1 from './Rolik1';
 import Material1 from './Material1'
 import VideosRolik from './VideosRolik';
 import SiteBar from './SiteBar'
+import Post2 from './Post2';
 
 function Main() {
   return (
@@ -17,7 +18,8 @@ function Main() {
         <Route path='/material' element={<Material1 />}/>
       </Routes>
       <Post1 />
-      <VideosRolik />
+      <Post2 />
+      {/* <VideosRolik /> */}
     </main>
   )
 }
