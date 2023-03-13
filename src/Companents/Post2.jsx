@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import card2 from '../Utils/image/card2.webp';
 import img1 from '../Utils/image/stage1-img1.jpg';
+import card2 from '../Utils/image/card2.webp';
 import card3 from '../Utils/image/card3.webp'
 
 const Post2 = () => {

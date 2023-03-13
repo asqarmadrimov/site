@@ -169,7 +169,7 @@ body {
   }
 
   .text-title1, .text-title2 {
-    font-size: 18px !important;
+    font-size: 21px !important;
   }
 
   .text-masseg2, .text-masseg1 {
@@ -191,6 +191,10 @@ body {
   .videoRolik {
     width: 380px;
     height: 280px;
+  }
+
+  .lecture__text {
+    font-size: 14px !important;
   }
 }
 

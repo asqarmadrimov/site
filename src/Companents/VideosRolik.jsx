@@ -10,7 +10,7 @@ const VideosRolik = () => {
             Анатомия и физиология женской репродуктивной системы - обзор
           </h2>
 
-          <video className='videoRolik' controls>
+          <video className='videoRolik' controls autoPlay>
             <source src={video1} type="video/mp4" />
           </video>
 
