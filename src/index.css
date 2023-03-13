@@ -169,7 +169,7 @@ body {
   }
 
   .text-title1, .text-title2 {
-    font-size: 21px !important;
+    font-size: 22px !important;
   }
 
   .text-masseg2, .text-masseg1 {
@@ -177,11 +177,11 @@ body {
   }
 
   .card-title {
-    font-size: 18px !important;
+    font-size: 16px !important;
   }
 
   .card-text {
-    font-size: 12px !important;
+    font-size: 11px !important;
   }
 
   .videoRolik-title {
@@ -194,6 +194,10 @@ body {
   }
 
   .lecture__text {
+    font-size: 14px !important;
+  }
+
+  .footer__inner {
     font-size: 14px !important;
   }
 }

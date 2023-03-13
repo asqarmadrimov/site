@@ -56,7 +56,7 @@ const Post2 = () => {
             </li>
           </ul>
 
-          <div class="card p-1 hero__card" style={{ maxWidth: "540px" }}>
+          <div class="card p-1 hero__card mt-2" style={{ maxWidth: "540px" }}>
             <img src={card3} className="card-img-top" alt="" style={{ maxHeight: '300px' }} />
             <div class="card-body m-0 p-1">
               <h5 className='card-title fw-semibold'>НЫНЕШНЯЯ ГЛОБАЛЬНАЯ СИТУАЦИЯ </h5>
