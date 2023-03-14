@@ -12,7 +12,7 @@ function Lecture1() {
       <div className="container">
         <img className='lecture-img my-3' src={img} alt="" height={'500'} width={"700"} />
 
-        <h2 className='fs-1 mt-5 text-danger'>
+        <h2 className='fs-1 mt-5 text-danger fw-bold'>
           <em>
             STAGE 1 <br />
             HANDOUTS FOR <br />

@@ -3,7 +3,7 @@ import video1 from '../Utils/videos/1.mp4'
 
 const VideosRolik = () => {
   return (
-    <div className='my-3'>
+    <div className='my-3' id='videoRolik'>
       <div className="container-xl">
         <div className="videoRolik-inner p-0 m-0">
           <h2 className='videoRolik-title mx-2'> 
@@ -13,8 +13,6 @@ const VideosRolik = () => {
           <video className='videoRolik' controls autoPlay>
             <source src={video1} type="video/mp4" />
           </video>
-
-
         </div>
       </div>
     </div>

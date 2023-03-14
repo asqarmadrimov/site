@@ -24,7 +24,7 @@ function GamburgerBtn() {
               <ul className="dropdown-menu">
                 <li><Link className="dropdown-item" to={"/lecture"}>Лекция</Link></li>
                 <li><Link className="dropdown-item" to={'/rolik'}>Ролик</Link></li>
-                <li><Link className="dropdown-item" to={"/material"}>Разговорный материал</Link></li>
+                <li><Link className="dropdown-item" to={"/rolik"}>Разговорный материал</Link></li>
               </ul>
             </div>
 
@@ -34,9 +34,9 @@ function GamburgerBtn() {
               </a>
 
               <ul className="dropdown-menu">
-                <li><Link className="dropdown-item" to={"/lecture"}>Лекция</Link></li>
-                <li><Link className="dropdown-item" to={'/rolik'}>Ролик</Link></li>
-                <li><Link className="dropdown-item" to={"/material"}>Разговорный материал</Link></li>
+                <li><Link className="dropdown-item" to={"/lecture2"}>Лекция</Link></li>
+                <li><Link className="dropdown-item" to={'/rolik2'}>Ролик</Link></li>
+                <li><Link className="dropdown-item" to={"/rolik2"}>Разговорный материал</Link></li>
               </ul>
             </div>
 
@@ -46,33 +46,33 @@ function GamburgerBtn() {
               </a>
 
               <ul className="dropdown-menu">
-                <li><Link className="dropdown-item" to={"/lecture"}>Лекция</Link></li>
-                <li><Link className="dropdown-item" to={'/rolik'}>Ролик</Link></li>
-                <li><Link className="dropdown-item" to={"/material"}>Разговорный материал</Link></li>
+                <li><Link className="dropdown-item" to={"/lecture3"}>Лекция</Link></li>
+                <li><Link className="dropdown-item" to={'/rolik3'}>Ролик</Link></li>
+                <li><Link className="dropdown-item" to={"/rolik3"}>Разговорный материал</Link></li>
               </ul>
             </div>
           </div>
           <hr />
 
-          <a href="/#" className='btn btn-outline-success fs-2 w-100 py-2'>
+          <a href="#videoRolik" className='btn btn-outline-success fs-2 w-100 py-2'>
             Видео уроки
           </a>
 
           <hr />
 
-          <a href="/#" className='btn btn-outline-success fs-3 w-100 py-2'>
+          <a href="#post" className='btn btn-outline-success fs-3 w-100 py-2'>
             Марафон
           </a>
 
           <hr />
 
-          <a href="/#" className='btn btn-outline-success fs-3 w-100 py-2'>
+          <a href="#post" className='btn btn-outline-success fs-3 w-100 py-2'>
             Лекция
           </a>
 
           <hr />
 
-          <a href="/#" className='btn btn-outline-success fs-3 w-100 py-2'>
+          <a href="#videoRolik" className='btn btn-outline-success fs-3 w-100 py-2'>
             Разговорный материал
           </a>
         </div>

@@ -6,7 +6,7 @@ import card3 from '../Utils/image/card3.webp'
 
 const Post2 = () => {
   return (
-    <div className='hero'>
+    <div className='hero' id='post'>
       <hr className='w-75 mx-auto text-success d-block' style={{ height: '5px' }} />
       <div className="container-xxl">
         <div className='hero__list text-success d-flex justify-content-around flex-wrap'>
@@ -48,7 +48,7 @@ const Post2 = () => {
                     </p>
 
                     <div className="text-end m-0 pe-1 pb-1">
-                      <Link className='btn btn-outline-success mx-auto' to={"/lecture"}>Более</Link>
+                      <Link className='btn btn-outline-success mx-auto' to={"/lecture2"}>Более</Link>
                     </div>
                   </div>
                 </div>
@@ -65,7 +65,7 @@ const Post2 = () => {
                 В 2008 г. было зарегистрировано 16 миллионов деторождений среди матерей в возрасте 15-19 лет, что составляет 11% от общего числа деторождений в мире.  Около 95% этих деторождений имели место в странах с низким и средн...
               </p>
 
-              <Link className='btn btn-outline-success' to={"/lecture"}>Более</Link>
+              <Link className='btn btn-outline-success' to={"/lecture3"}>Более</Link>
             </div>
           </div>
         </div>

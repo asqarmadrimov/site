@@ -41,7 +41,7 @@ body {
 }
 
 .main {
-  max-height: 75vh;
+  max-height: 78vh;
   overflow-y: scroll;
 }
 
@@ -177,11 +177,11 @@ body {
   }
 
   .card-title {
-    font-size: 16px !important;
+    font-size: 14px !important;
   }
 
   .card-text {
-    font-size: 11px !important;
+    font-size: 10px !important;
   }
 
   .videoRolik-title {
@@ -194,7 +194,7 @@ body {
   }
 
   .lecture__text {
-    font-size: 14px !important;
+    font-size: 13px !important;
   }
 
   .footer__inner {
