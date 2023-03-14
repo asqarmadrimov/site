@@ -73,7 +73,7 @@ function GamburgerBtn() {
           <hr />
 
           <a href="#videoRolik" className='btn btn-outline-success fs-3 w-100 py-2'>
-            Разговорный материал
+            Раздаточные материалы
           </a>
         </div>
       </div>
