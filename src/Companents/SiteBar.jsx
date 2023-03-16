@@ -12,7 +12,7 @@ function Navbar() {
         <ul className="dropdown-menu">
           <li><Link className="dropdown-item" to={"/lecture"}>Лекция</Link></li>
           <li><Link className="dropdown-item" to={'/rolik'}>Ролик</Link></li>
-          <li><Link className="dropdown-item" to={"/rolik"}>Разговорный материал</Link></li>
+          <li><Link className="dropdown-item" to={"/lecture"}>Раздаточные материалы</Link></li>
         </ul>
       </div>
 
@@ -24,7 +24,7 @@ function Navbar() {
         <ul className="dropdown-menu">
           <li><Link className="dropdown-item" to={"/lecture2"}>Лекция</Link></li>
           <li><Link className="dropdown-item" to={'/rolik2'}>Ролик</Link></li>
-          <li><Link className="dropdown-item" to={"/rolik2"}>Разговорный материал</Link></li>
+          <li><Link className="dropdown-item" to={"/lecture2"}>Раздаточные материалы</Link></li>
         </ul>
       </div>
 
@@ -36,7 +36,7 @@ function Navbar() {
         <ul className="dropdown-menu">
           <li><Link className="dropdown-item" to={"/lecture3"}>Лекция</Link></li>
           <li><Link className="dropdown-item" to={'/rolik3'}>Ролик</Link></li>
-          <li><Link className="dropdown-item" to={"/rolik3"}>Разговорный материал</Link></li>
+          <li><Link className="dropdown-item" to={"/lecture3"}>Раздаточные материалы</Link></li>
         </ul>
       </div>
 

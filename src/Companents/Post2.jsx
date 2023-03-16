@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import img1 from '../Utils/image/stage1-img1.jpg';
 import card2 from '../Utils/image/card2.webp';
 import card3 from '../Utils/image/card3.webp'
+import SwiperCompanent from './Swiper';
+// import SwiperCompanent from './Swiper';
 
 const Post2 = () => {
   return (
@@ -65,12 +67,15 @@ const Post2 = () => {
                 В 2008 г. было зарегистрировано 16 миллионов деторождений среди матерей в возрасте 15-19 лет, что составляет 11% от общего числа деторождений в мире.  Около 95% этих деторождений имели место в странах с низким и средн...
               </p>
 
-              <Link className='btn btn-outline-success' to={"/lecture3"}>Более</Link>
+              <div className=" text-end">
+                <Link className='btn btn-outline-success' to={"/lecture3"}>Более</Link>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
+      <SwiperCompanent />
     </div>
   )
 }
