@@ -140,7 +140,7 @@ export default function App() {
                 В 2008 г. было зарегистрировано 16 миллионов деторождений среди матерей в возрасте 15-19 лет, что составляет 11% от общего числа деторождений в мире...
               </p>
 
-              <Link to="/lecture2" class="btn btn-outline-success">Более</Link>
+              <Link to="/lecture3" class="btn btn-outline-success">Более</Link>
             </div>
           </div>
         </SwiperSlide>

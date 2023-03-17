@@ -9,7 +9,6 @@ function Post1() {
     <section>
       <div className='container-fuld'>
         <Carusel />
-        {/* <Post2 /> */}
         <SwiperCompanent />
         <VideosRolik />
       </div>

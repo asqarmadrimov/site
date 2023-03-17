@@ -1,5 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import ford from '../Utils/ford/5-6 классы лекция.pdf'
+import ford2 from '../Utils/ford/лекции 7-8 классов.pdf'
+import ford3 from '../Utils/ford/Лекции 9-10-11 классов.pdf'
 
 function Navbar() {
   return (
@@ -10,7 +13,7 @@ function Navbar() {
         </a>
 
         <ul className="dropdown-menu">
-          <li><Link className="dropdown-item" to={"/lecture"}>Лекция</Link></li>
+          <li><a href={ford} className="dropdown-item">Лекция</a></li>
           <li><Link className="dropdown-item" to={'/rolik'}>Ролик</Link></li>
           <li><Link className="dropdown-item" to={"/lecture"}>Раздаточные материалы</Link></li>
         </ul>
@@ -22,7 +25,7 @@ function Navbar() {
         </a>
 
         <ul className="dropdown-menu">
-          <li><Link className="dropdown-item" to={"/lecture2"}>Лекция</Link></li>
+          <li><a href={ford2} className="dropdown-item">Лекция</a></li>
           <li><Link className="dropdown-item" to={'/rolik2'}>Ролик</Link></li>
           <li><Link className="dropdown-item" to={"/lecture2"}>Раздаточные материалы</Link></li>
         </ul>
@@ -34,7 +37,7 @@ function Navbar() {
         </a>
 
         <ul className="dropdown-menu">
-          <li><Link className="dropdown-item" to={"/lecture3"}>Лекция</Link></li>
+          <li><a href={ford3} className="dropdown-item">Лекция</a></li>
           <li><Link className="dropdown-item" to={'/rolik3'}>Ролик</Link></li>
           <li><Link className="dropdown-item" to={"/lecture3"}>Раздаточные материалы</Link></li>
         </ul>
