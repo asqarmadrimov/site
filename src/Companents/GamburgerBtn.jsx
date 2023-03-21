@@ -78,6 +78,10 @@ function GamburgerBtn() {
           <a href="#videoRolik" className='btn btn-outline-success fs-3 w-100 py-2'>
             Раздаточные материалы
           </a>
+
+          <p className='ms-3 mt-4 pt-3 text-success fs-3 font-monospace'>
+            Йога и нутрициология
+          </p>
         </div>
       </div>
     </div>
