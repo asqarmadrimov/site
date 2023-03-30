@@ -19,6 +19,7 @@ function GamburgerBtn() {
         </div>
         <div class="offcanvas-body">
           <div className="gamBtn__Stage">
+
             <div className="dropdown w-100 text-center">
               <a className="btn btn-outline-success fs-3 w-100 px-5 py-2 dropdown-toggle" href="/#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Этап-1
@@ -79,9 +80,11 @@ function GamburgerBtn() {
             Раздаточные материалы
           </a>
 
-          <p className='ms-3 mt-4 pt-3 text-success fs-3 font-monospace'>
+          <hr />
+
+          <a href="#post" className='btn btn-outline-success fs-3 w-100 py-2'>
             Йога и нутрициология
-          </p>
+          </a>
         </div>
       </div>
     </div>
